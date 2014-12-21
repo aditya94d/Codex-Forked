@@ -1,0 +1,17 @@
+import math
+def count(N):
+    rootn=int(math.ceil(math.sqrt(N)))
+    ans=0
+    #print rootn
+    for i in range(1,rootn):
+        #print int(math.ceil(N/float(i)))-i-1
+        ans+=(int(math.ceil(N/float(i)))-i-1)*2
+        #print 'ans',ans
+    ans+=rootn
+    if rootn*rootn>=N:
+        ans-=1
+    return ans
+t=int(input())
+for i in range(t):
+    a=int(input())
+    print count(a)

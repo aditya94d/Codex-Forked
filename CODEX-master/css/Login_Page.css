@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-bottom: 300px;
+	
+}
+#logo {
+	position: absolute;
+	margin-left:50px;
+	width: 181px;
+	height: 77px;
+	z-index: 1;
+	left: 1%;
+	top: 90px;
+}
+
+
+
+.text1 {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: right;
+}
+
+
+
+#horizontal_line {
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	width: 100%;
+	height: 47px;
+	z-index: 5;
+}
+
+
+#Title_text {
+	position: absolute;
+	left: 340px;
+	top: 50px;
+	width: 687px;
+	height: 64px;
+	font-family: Verdana, Geneva, sans-serif;
+	letter-spacing:10px;
+	z-index: 7;
+	text-align:center;
+	color:#3e3e40;
+	margin-top: 0px; 
+	font-size: 1.5em; 
+	font-style: normal; 
+	font-variant: normal;
+	line-height: normal; 
+	orphans: auto; 
+	text-indent: 0px; 
+	text-transform: none; 
+	white-space: normal; 
+	widows: auto; 
+	word-spacing: 0px; 
+	-webkit-text-stroke-width: 0px;
+}
+
+#line2 {
+	position: absolute;
+	left: 0px;
+	top: 164px;
+	width: 100%;
+	height: 43px;
+	z-index: 6;
+}
+
+#Name_of_participant {
+	right: 50px;
+	position: absolute;
+	top: 14px;
+	width: 362px;
+	height: 35px;
+	z-index: 8;
+	overflow: auto;
+	text-align:right;
+}
+
+#Message {
+	
+	float:right;
+	margin-top: 14px;
+	width: 375px;
+	height: 35px;
+	z-index: 9;
+	clear:both;
+}
+
+#apDiv1 {
+	position: absolute;
+	left: 3px;
+	top: 240px;
+	width: 133px;
+	height: 146px;
+	/*z-index: 2;*/
+}
+#apDiv2 {
+	left: 300px;
+	top: 240px;
+	width: 687px;
+	height: 330px;
+	z-index: 3;
+	color: #333;
+	background-color: #F0F0F0;
+	
+	bottom: 200px;
+	position: absolute;
+	clear: none;
+	padding-left: 100px;
+}
+#footer {
+	position: absolute;
+	left: 0px;
+	top: 882px;
+	width: 100%;
+	height: 50px;
+	z-index: 8;
+	background-color: #3e3e40;
+}
+.text1 {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: left;
+}
+
+#register {
+	position: absolute;
+	left: 500px;
+	top: 300px;
+	width: 272px;
+	height: 229px;
+	/*z-index: 4;*/
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+	color: #333;
+	background-color: #CCCCCC;
+	-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+	
+	
+}
+
+#apDiv3 {
+	position: absolute;
+	left: 13px;
+	top: 120px;
+	width: 932px;
+	height: 109px;
+	z-index: 7;
+}
+
+.reg_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:-6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#55aa66;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:158px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+
+
+
+
+
+.reg_button :hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.reg_button :active {
+	position:relative;
+	top:1px;
+}
+.form_ele {
+	font-family: Verdana, Courier, monospace;
+	letter-spacing: 0.1em;
+}
+#Reg_Title {
+	text-align: justify;
+	padding-left: 250px;
+	padding-top: 50px;
+}
+label{
+	float:left;
+	width:150px;
+	}
+#header{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+	z-index:11;
+	background-color: #3e3e40;
+}
+
+#div_header{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:40px;
+	background-color:#3e3e40;
+	z-index:11;
+	letter-spacing:5px;
+}

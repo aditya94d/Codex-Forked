@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-bottom: 0px;
+	
+}
+.text1 {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: right;
+}
+
+#message {
+	position: absolute;
+	left: 50px;
+	top: 13px;
+	width: 1000px;
+	height: 31px;
+	z-index: 11;
+}
+
+#Name_of_participant {
+	right: 50px;
+	position: absolute;
+	top: 14px;
+	width: 200px;
+	height: 35px;
+	z-index: 8;
+	text-align:right;
+}
+
+
+
+#apDiv2 {
+	left: 0px;
+	top: 50px;
+	width: 100%;
+	height: 650px;
+	z-index: 3;
+	color: #fff;
+	background-color: #256;
+	
+	position: static;
+	clear: none;
+	text-align: left;
+	overflow:auto;
+}
+
+
+label{
+	float:left;
+	width:150px;
+	}
+#header{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+	z-index:11;
+	background-color: #3e3e40;
+}
+
+.text2 {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: left;
+}
